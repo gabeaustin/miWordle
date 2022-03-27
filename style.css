@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-family: "Montserrat", sans-serif;
+  --correct-color: #6aaa64;
+  --almost-correct-color: #c9b458;
+  --incorrect-color: #787c7e;
+  --bold: 600;
+}
+
+.bold-word {
+  font-weight: var(--bold);
+  text-transform: uppercase;
+}
+
+.example-word-weary {
+  background-color: var(--correct-color);
+}
+
+.example-word-pills {
+  background-color: var(--almost-correct-color);
+}
+
+.example-word-vague {
+  background-color: var(--incorrect-color);
+}
